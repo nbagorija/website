@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ирина Карандашова — юрист</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Ирина Карандашова — адвокат/юрист. Практика: гражданское право, договоры, сопровождение бизнеса.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Ирина Карандашова">
+        <!-- адаптивный SVG-логотип -->
+        <img src="assets/logo.svg" alt="Логотип Ирины Карандашовой" class="logo-img">
+        <div class="logo-text">
+          <span class="name">Ирина Карандашова</span>
+          <span class="profession">Юрист • Консультант</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Главное меню">
+        <a href="index.html#home">Главная</a>
+        <a href="about.html">Обо мне</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false" aria-label="Открыть меню">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Ирина Карандашова — профессиональный юрист</h1>
+          <p class="lead">
+            Я помогаю предпринимателям и частным лицам решать сложные юридические вопросы: подготовка и проверка договоров, защита прав в суде, сопровождение сделок и консультации по гражданскому праву. Мой подход — точный анализ, понятный язык и работа на результат.
+          </p>
+          <div class="hero-cta">
+            <a class="btn" href="contacts.html">Записаться на консультацию</a>
+            <a class="btn ghost" href="about.html">Подробнее обо мне</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <!-- Замените на ОРИГИНАЛЬНОЕ фото -->
+          <img src="assets/irina-photo.jpg" alt="Ирина Карандашова" class="portrait">
+          <div class="photo-caption">Ирина Карандашова — юридическая практика с вниманием к клиенту</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container" id="services">
+      <h2>Услуги</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="icon-wrap">
+            <!-- адаптивная SVG-иконка -->
+            <img src="assets/icon-work.svg" alt="" class="icon">
+          </div>
+          <h3>Договорная работа</h3>
+          <p>Разработка, правовая экспертиза и корректировка договоров любой сложности с учётом практических рисков.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon-wrap">
+            <img src="assets/icon-work.svg" alt="" class="icon">
+          </div>
+          <h3>Сопровождение сделок</h3>
+          <p>Юридическое сопровождение коммерческих и частных сделок, подготовка документов и проверка контрагентов.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon-wrap">
+            <img src="assets/icon-work.svg" alt="" class="icon">
+          </div>
+          <h3>Представительство в суде</h3>
+          <p>Подготовка исков, защита интересов в суде, исполнение судебных решений и сопровождение споров.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery container">
+      <h2>Галерея работ</h2>
+      <p class="small">Показываю подход к оформлению документов и примеры кейсов (иллюстративно).</p>
+      <div class="gallery-grid">
+        <img src="assets/gallery1.jpg" alt="Кейс 1">
+        <img src="assets/gallery2.jpg" alt="Кейс 2">
+        <img src="assets/gallery3.jpg" alt="Кейс 3">
+        <img src="assets/gallery4.jpg" alt="Кейс 4">
+      </div>
+    </section>
+
+    <section id="quick-contact" class="container contact-quick">
+      <h2>Быстрая связь</h2>
+      <div class="contact-cards">
+        <div>
+          <a href="tel:+79991234567" class="contact-link">📞 +7 (999) 123-45-67</a>
+        </div>
+        <div>
+          <a href="mailto:irina@example.ru" class="contact-link">✉️ irina@example.ru</a>
+        </div>
+        <div class="qr-wrap">
+          <p>QR для быстрого перехода:</p>
+          <!-- QR-код (замените URL на финальный адрес) -->
+          <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://grok.com/" alt="QR-код — ссылка на сайт" class="qr">
+          <small>Сканируйте, чтобы открыть сайт</small>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p>© <span id="year"></span> Ирина Карандашова</p>
+        <p>Юридические услуги — договорная работа, сопровождение сделок, суды.</p>
+      </div>
+
+      <div class="socials">
+        <a href="https://t.me/irina" target="_blank" rel="noopener" aria-label="Telegram">
+          <!-- telegram svg -->
+          <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden><path d="M.."/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/irina" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden><path d="M.."/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // mobile nav toggle
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', !open);
+      nav.classList.toggle('open');
+    });
+
+    // Smooth scroll for same-page anchors (CSS also handles scroll-behavior)
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({behavior:'smooth', block:'start'});
+        }
+      });
+    });
+  </script>
+</body>
+</html>

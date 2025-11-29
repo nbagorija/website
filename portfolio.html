@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Портфолио — Ирина Карандашова</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><img src="assets/logo.svg" alt="logo" class="logo-img"><div class="logo-text"><span class="name">Ирина Карандашова</span></div></a>
+      <nav class="main-nav">
+        <a href="index.html">Главная</a>
+        <a href="about.html">Обо мне</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="portfolio">
+      <h1>Портфолио</h1>
+    
+
+      <div class="portfolio-grid">
+        <article class="case">
+          <img src="assets/gallery1.jpg" alt="Кейс 1">
+          <h3>Сопровождение сделки</h3>
+          <p>Сбор и проверка документов, подготовка договора купли-продажи и сопровождение переговоров.</p>
+        </article>
+
+        <article class="case">
+          <img src="assets/gallery2.jpg" alt="Кейс 2">
+          <h3>Проверка договоров</h3>
+          <p>Юридическая экспертиза и оптимизация стандартных договоров компании.</p>
+        </article>
+
+        <article class="case">
+          <img src="assets/gallery3.jpg" alt="Кейс 3">
+          <h3>Представительство в суде</h3>
+          <p>Успешная защита интересов клиента в гражданском споре.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>© <span id="year3"></span> И.Карандашова</div>
+      <div><a href="contacts.html">Контакты</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>

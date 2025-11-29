@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Обо мне — Ирина Карандашова</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img src="assets/logo.svg" alt="Логотип" class="logo-img">
+        <div class="logo-text">
+          <span class="name">Ирина Карандашова</span>
+          <span class="profession">Юрист</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" role="navigation">
+        <a href="index.html">Главная</a>
+        <a href="about.html">Обо мне</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about">
+      <h1>Обо мне</h1>
+      <p>
+        Меня зовут Ирина Карандашова. Я практикующий юрист с более чем 8 лет опыта в гражданском и корпоративном праве.
+        Мои ключевые компетенции включают подготовку и экспертизу договоров, сопровождение сделок и представительство интересов клиентов в арбитражных и гражданских судах.
+      </p>
+
+      <p>
+        Я ценю практический подход и ясность — объясняю сложные вещи простым языком, вырабатываю понятную стратегию и добиваюсь результата.
+        Работала с предпринимателями малого и среднего бизнеса, частными лицами и стартапами.
+      </p>
+
+      <h2>Квалификация</h2>
+      <ul>
+        <li>Диплом по юриспруденции, профильное образование</li>
+        <li>Опыт в коммерческой практике и судебной защите</li>
+        <li>Регулярное повышение квалификации и профильные курсы</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>© <span id="year2"></span> Ирина Карандашова</div>
+      <div><a href="contacts.html">Связаться</a></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+    // nav toggle
+    document.querySelector('.nav-toggle').addEventListener('click', e => {
+      document.querySelector('.main-nav').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
