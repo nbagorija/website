@@ -36,6 +36,15 @@ body{
   border-bottom:1px solid rgba(15,23,42,0.04);
 }
 
+.qr-img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+
 .header-inner{
   display:flex;
   align-items:center;
@@ -125,3 +134,4 @@ body{
   .portfolio-grid{grid-template-columns:1fr}
   .gallery-grid{grid-template-columns:1fr}
 }
+
